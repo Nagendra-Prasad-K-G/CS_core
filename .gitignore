@@ -8,3 +8,5 @@ modern_cpp/build/*
 
 # ...Except for this specific placeholder file (Git doesn't track empty folders)
 !modern_cpp/build/.gitkeep
+# Ignore VS Code personal settings
+.vscode/
