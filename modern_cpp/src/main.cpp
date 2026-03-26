@@ -1,5 +1,8 @@
+#include"telemetry.hpp"
 #include<print>
+
 int main(){
-    std::println("Initializing Core...\nArchitecture: x86_64\nStatus: ALL SYSTEMS NOMINAL");
+    std::println("Bootstrapping Subsystem...");
+    broadcast_status();
     return 0;
 }
